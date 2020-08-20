@@ -1,5 +1,7 @@
 # git使用技巧
 
+## 一、常用命令
+
 ```
 // 本地创建README.md文件
 echo "# git-" >> README.md
@@ -13,6 +15,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/haixiangyuan/git-.git
 //本地push远程分支
 git push -u origin master
+
+//查看git状态
+git list
+git status
 ```
 
 ```
